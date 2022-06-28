@@ -16,7 +16,7 @@ body {
     background-color: #1A1B21;
     height: fit-content;
     max-width: 375px;
-    margin: auto auto; 
+    margin: 0 auto; 
     border-radius: 10px 10px 10px 10px;
 }
 
