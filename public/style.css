@@ -20,12 +20,36 @@ body {
     border-radius: 10px 10px 10px 10px;
 }
 
+/* Media Query for Devices under 376px */
+
+@media (max-width: 376px) {
+    .business-card {
+        max-width: 300px;
+    }
+
+    .img--container {
+        background-position: 50% 30%;
+    }
+}
+
+@media (max-width: 300px) {
+    .business-card {
+        max-width: 280px;
+    }
+
+    .img--container {
+        background-position: 50% 30%;
+    }
+}
+
+
 /* Img of Me */
 
 .img--container {
     border-radius: 10px 10px 0 0;
     background-image: url("./images/me.png");
-    height: 375px; 
+    height: 500px; 
+    background-position: 50% 30%;
 }
 
 /* Info Text Component Styling */
