@@ -14,7 +14,7 @@ body {
 
 .business-card {
     background-color: #1A1B21;
-    height: fit-content;
+    height: 98vh;
     max-width: 375px;
     margin: 5px auto; 
     border-radius: 10px 10px 10px 10px;
