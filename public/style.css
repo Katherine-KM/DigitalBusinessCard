@@ -10,11 +10,13 @@
 
 body {
     background-color: #23252C;
+    width: fit-content;
+    height: fit-content; 
 }
 
 .business-card {
     background-color: #1A1B21;
-    height: 98vh;
+    height: fit-content; 
     max-width: 375px;
     margin: 5px auto; 
     border-radius: 10px 10px 10px 10px;
