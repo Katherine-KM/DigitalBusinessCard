@@ -6,11 +6,11 @@ import Footer from "./components/Footer.jsx"
 
 export default function App() {
     return (
-        <section className="business-card">
+        <>
             <Img />
             <Info />
             <About />
             <Footer />
-        </section>
-        )
+        </>
+    )
 }
