@@ -4,8 +4,8 @@ export default function Footer() {
     return (
         <footer>
             <ul>
-                <li> <img src="./images/TwitterIcon.png" alt="Twitter Icon"/> </li>
-                <li> <img src="./images/GitHubIcon.png" alt="GitHub Icon"/> </li> 
+                <li> <a target="_blank" href="https://twitter.com/CodingKatCodes"><img src="./images/TwitterIcon.png" alt="Twitter Icon"/></a> </li>
+                <li> <a target="_blank" href="https://github.com/KatherineMarcott"><img src="./images/GitHubIcon.png" alt="GitHub Icon"/></a> </li> 
             </ul>
         </footer> 
     )

@@ -5,9 +5,9 @@ export default function Info() {
         <section className="info--container">
             <h1> Katherine Marcott </h1> 
             <h2> Software Engineer </h2> 
-            <h3> katherinemarcott.netlify.app </h3>
-            <button className="info--btn-email btn"> <img src="./images/Icon.png" alt="Email"/> Email </button>
-            <button className="info--btn-linkedin btn"> <img src="./images/Vector.png" alt="LinkedIn"/> LinkedIn </button>
+            <h3> Katherinesoftwareengineer@gmail.com </h3>
+            <button className="info--btn-portfolio btn"> <a href="https://katherinemarcott.netlify.app/" target="_blank"> Portfolio </a></button>
+            <button className="info--btn-linkedin btn"> <a target="_blank" href="https://www.linkedin.com/in/katherinemarcott/"><img src="./images/Vector.png" alt="LinkedIn"/> LinkedIn </a> </button>
         </section>
     )
 }
